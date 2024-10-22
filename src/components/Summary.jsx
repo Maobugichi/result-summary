@@ -1,8 +1,11 @@
 import data from "../../data.json";
+import img from "../../assets1/images/icon-memory.svg"
 
 export default function Summary({width,height, mobileWidth,mobileHeight}) {
  const tabItem = data.map(data => {
-  return <Tab {...data}/>})
+  return <Tab
+     key={data.score}
+     {...data}/>})
     return(
         <>
          <div className={`xl:${width} flex  xl:pb-5 rounded-  xl:${height} justify-center xl:items-center ${mobileWidth} ${mobileHeight}`}>
@@ -21,7 +24,7 @@ export default function Summary({width,height, mobileWidth,mobileHeight}) {
 
 
  function Tab({category,icon,score,color,backgroundColor}) {
-    console.log(icon)
+    //console.log(icon)
     const text = {
         red: 'bg-lightRedAlpha text-lightRed',
         yellow: 'bg-orangeyYellowAlpha text-orangeyYellow',
@@ -32,7 +35,7 @@ export default function Summary({width,height, mobileWidth,mobileHeight}) {
         <>
          <div className={`font-custom bg-${backgroundColor} flex h-[60px] xl:h-[80px] justify-between items-center rounded-lg `}> 
           <div className="flex items-center ml-4 gap-3">
-           <img src={icon} alt="icon" />
+           <img src={img} alt="icon" />
             <p className={`text-xl text-${color}`}>{category}</p>
             <img src="" alt="" />
           </div>
