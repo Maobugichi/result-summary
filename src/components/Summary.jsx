@@ -21,7 +21,7 @@ export default function Summary({width,height, mobileWidth,mobileHeight}) {
 
 
  function Tab({category,icon,score,color,backgroundColor}) {
-    console.log(color)
+    console.log(icon)
     const text = {
         red: 'bg-lightRedAlpha text-lightRed',
         yellow: 'bg-orangeyYellowAlpha text-orangeyYellow',
@@ -34,6 +34,7 @@ export default function Summary({width,height, mobileWidth,mobileHeight}) {
           <div className="flex items-center ml-4 gap-3">
            <img src={icon} alt="icon" />
             <p className={`text-xl text-${color}`}>{category}</p>
+            <img src="" alt="" />
           </div>
           <p className="mr-6 text-darkGrayBlue/60"><span className="text-darkGrayBlue font-bold">{score}</span>/100</p>
          </div>
