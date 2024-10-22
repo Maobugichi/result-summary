@@ -1,7 +1,7 @@
 import ResultCard from "./Result";
 import { useState } from "react";
 import Summary from "./Summary";
-import  data  from "/data.json";
+
 export default function Card() {
 const [useScore, setUseScore] = useState(0)
  function setScore(value) {

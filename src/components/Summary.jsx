@@ -1,4 +1,4 @@
-import data from "../../data.json";
+import data from "../data.json";
 import img from "../../assets1/images/icon-memory.svg"
 
 export default function Summary({width,height, mobileWidth,mobileHeight}) {
@@ -35,7 +35,7 @@ export default function Summary({width,height, mobileWidth,mobileHeight}) {
         <>
          <div className={`font-custom bg-${backgroundColor} flex h-[60px] xl:h-[80px] justify-between items-center rounded-lg `}> 
           <div className="flex items-center ml-4 gap-3">
-           <img src={img} alt="icon" />
+           <img src={icon} alt="icon" />
             <p className={`text-xl text-${color}`}>{category}</p>
             <img src="" alt="" />
           </div>
