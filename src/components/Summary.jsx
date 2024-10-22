@@ -44,5 +44,5 @@ export default function Summary({width,height, mobileWidth,mobileHeight}) {
 }
 
 function Button() {
-    return <button className="rounded-full bg-darkGrayBlue text-white h-[60px]">Continue</button>
+    return <button className="rounded-full bg-darkGrayBlue text-white h-[60px] mt-5">Continue</button>
 }

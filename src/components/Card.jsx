@@ -13,7 +13,7 @@ const [useScore, setUseScore] = useState(0)
   return(
     <>
     
-     <div className="font-custom bg-white shadow-xl rounded-3xl  flex flex-col h-[110vh] lg:flex lg:flex-row lg:w-[70%] lg:mx-auto lg:h-[550px] lg:pr-4  gap-6">
+     <div className="font-custom bg-white shadow-xl rounded-3xl  flex flex-col h-[125vh] lg:flex lg:flex-row lg:w-[70%] lg:mx-auto lg:h-[550px] lg:pr-4  gap-6">
       <ResultCard 
        mobileWidth='w-full'
        mobileHeight="h-[45%]"
