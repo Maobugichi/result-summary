@@ -1,5 +1,5 @@
 import data from "../data.json";
-import img from "../../assets1/images/icon-memory.svg"
+import img from "../../src/assets/images/icon-visual.svg"
 
 export default function Summary({width,height, mobileWidth,mobileHeight}) {
  const tabItem = data.map(data => {
