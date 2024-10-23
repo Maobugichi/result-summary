@@ -4,14 +4,14 @@
   {
     "category": "Reaction",
     "score": 80,
-    "icon": "./assets/images/icon-reaction.svg",
+    "icon": "",
      "color": "lightRed",
     "backgroundColor": "lightRedAlpha"
   },
   {
     "category": "Memory",
     "score": 92,
-    "icon": "../assets/images/icon-memory.svg",
+    "icon": "",
     "color": "orangeyYellow",
     "backgroundColor": "orangeyYellowAlpha"
   },
@@ -25,7 +25,7 @@
   {
     "category": "Visual",
     "score": 72,
-    "icon": "../../src/assets/images/icon-visual.svg",
+    "icon": "../assets/images/icon-visual.svg",
     "color": "cobaltBlue",
     "backgroundColor": "cobaltBlueAlpha"
   }
