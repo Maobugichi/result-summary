@@ -6,27 +6,31 @@
     "score": 80,
     "icon": "",
      "color": "lightRed",
-    "backgroundColor": "lightRedAlpha"
+    "backgroundColor": "lightRedAlpha",
+    "alt": "lightening icon"
   },
   {
     "category": "Memory",
     "score": 92,
     "icon": "",
     "color": "orangeyYellow",
-    "backgroundColor": "orangeyYellowAlpha"
+    "backgroundColor": "orangeyYellowAlpha",
+    "alt":"brain icon"
   },
   {
     "category": "Verbal",
     "score": 61,
     "icon": "/assets/images/icon-verbal.svg",
     "color": "greenTeal",
-    "backgroundColor": "greenTealAlpha"
+    "backgroundColor": "greenTealAlpha",
+    "alt": "chat icon"
   },
   {
     "category": "Visual",
     "score": 72,
     "icon": "../assets/images/icon-visual.svg",
     "color": "cobaltBlue",
-    "backgroundColor": "cobaltBlueAlpha"
+    "backgroundColor": "cobaltBlueAlpha",
+    "alt": "eye icon"
   }
 ]
